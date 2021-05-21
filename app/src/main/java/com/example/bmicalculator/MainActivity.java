@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     String calculation, BMIresult;
     Button btn;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 calculateBMI();
                 hideSoftKeyboard(MainActivity.this);
             } catch (Exception e){
-                Toast.makeText(MainActivity.this, "fill all filleds", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Fill all fields", Toast.LENGTH_SHORT).show();
             }
         });
 
